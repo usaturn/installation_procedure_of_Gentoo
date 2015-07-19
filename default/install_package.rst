@@ -10,7 +10,7 @@ NICのbondingをしている場合は ``ifenslave`` が必要 ::
 
    # emerge -avt sys-fs/reiserfsprogs
 
-シスログツール ::
+シスログツール syslog-ng か rsyslogをインストールする ::
 
    ※ syslog-ng
    # emerge -avt syslog-ng
