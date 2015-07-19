@@ -56,20 +56,6 @@ sshdの設定
     RSAAuthentication no       # ssh v1 不可
     PubkeyAuthentication yes   # ssh v2 許可
 
-NFSマウント
-===========
-
-標準のNFS領域をマウントする ::
-
-  # emerge -avt net-fs/nfs-utils
-  # rc-update add nfsclient default
-  # mkdir -p /export/work_data
-  # /etc/init.d/nfsclient start
-  # vim /etc/fstab
-    ※ nfsの記述を有効にする
-  # mount -a
-  # df -h
-
 Pythonのバージョン指定
 ======================
 ::
